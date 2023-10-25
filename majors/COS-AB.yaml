@@ -91,6 +91,90 @@ req_list:
       explanation:
       course_list:
       - COS 226
+ year_switch:
+   - year_code: ">= 2025"
+ - name: Core Courses
+   max_counted: 1
+   min_needed: ALL
+   explanation:
+   pdfs_allowed: false
+   req_list:
+   - name: Foundational
+      max_counted: 1
+      min_needed: 1
+      explanation:
+      req_list:
+      - name:
+        max_counted:
+        min_needed:
+        explanation:
+        course_list:
+        - COS240: Reasoning about Computation
+    - name: Artificial Intelligence and Machine Learning
+     max_counted: 1
+      min_needed: 1
+      explanation:
+      req_list:
+      - name:
+        max_counted:
+        min_needed:
+        explanation:
+        course_list:
+      - COS 324: Introduction to Machine Learning
+      - COS 424: Fundamentals of Machine Learning
+      - COS 429: Computer Vision
+      - COS 484: Natural Language Processing
+     - name: Theoretical Computer Science
+     max_counted: 1
+      min_needed: 1
+      explanation:
+      req_list:
+      - name:
+        max_counted:
+        min_needed:
+        explanation:
+        course_list:
+        - COS 423: Theory of Algorithms
+        - COS 445: Networks, Economics and Computing
+        - COS 484: Natural Language Processing
+        - COS 487: Theory of Computation
+     - name: Breadth
+     max_counted: 1
+      min_needed: 1
+      explanation:
+      req_list:
+      - name:
+        max_counted:
+        min_needed:
+        explanation:
+        course_list:
+        - COS 326: (Functional Programming)
+        - COS 333: (Advanced Programming Techniques)
+        - COS 343: (Algorithms for Computational Biology)
+        - COS 426: (Computer Graphics)
+        - COS 432: (Information Security)
+        - COS 436: (Human-Computer Interface Technology)
+        - COS 448: (Innovating across Technology, Business, and Markets)
+     - name: Electives
+     max_counted: 1
+      min_needed: 3
+      explanation:
+      req_list:
+      - name:
+        max_counted: 
+        min_needed:
+        explanation:
+        course_list:
+        - COS 3*
+        - COS 4*
+        - MAT 3*
+        - MAT 4*
+        - ECE 3*
+        - ECE 4*
+        - ORF 3*
+        - ORF 4*
+ year_switch:
+    - year_code: "<2025"
 - name: Core Courses
   max_counted: 1
   min_needed: ALL
